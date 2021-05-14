@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./Images/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./Images/bg_gradient.svg');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0% 5%;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    height: 60px;
+    padding-left: 60px;
+}
+nav ul li:not(#button){
+    height: 20px;
+    display: inline-block;
+    padding: 10px 0px;
+    list-style: none;
+    margin: 10px 20px;
+}
+a{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #272D4E;
+}
+button{
+    border: none;
+    height: 40px;
+    margin: 10px 0px;
+    background-color: #7854F7;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 8px;
+}
+.content h1{
+    top: 270px;
+	left: 220px;
+	width: 865.5px;
+	height: 304.5px;
+    font-family: Circular Std;
+    overflow: hidden;
+    font-size: 85px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 95px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #272D4E;
+}
+.content p:not(#leave){
+    top: 584px;
+	left: 220px;
+	width: 730px;
+	height: 63px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: left;
+	line-height: 25px;
+	color:#94A2B3;
+}
+.content button{
+    top: 665px;
+	left: 216px;
+    width: 267px;
+    height: 72px;
+    border: none;
+    border-radius: 60px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    background-color: #7854F7;
+    color: #fff;
+    float: left;
+    margin-right: 5px;
+}
+.customize{
+    padding:  34px 0px;
+}
+#last{
+	font-family: Roboto;
+	font-size: 18px;
+    line-height: 18px;
+	text-align: left;
+	line-height: 25px;
+	color: #299EF3;
+}
+.mainImage{
+	width: 681.911379px;
+	height: 550px;
+    position: absolute;
+    bottom: 0;
+    top: 110px;
+    right: 0px;
+}
+.center{
+    margin: 80px;
+    text-align: center;
+	overflow: hidden;
+	font-family: Circular Std;
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 70px;
+	color:#272D4E;
+}
